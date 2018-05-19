@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BackJoonAlgo.iml" filepath="$PROJECT_DIR$/BackJoonAlgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlgoNPattern.iml" filepath="$PROJECT_DIR$/AlgoNPattern.iml" />
     </modules>
   </component>
 </project>
