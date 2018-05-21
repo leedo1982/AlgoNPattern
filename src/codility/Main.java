@@ -5,10 +5,11 @@ public class Main {
 //        BinaryGap bg = new BinaryGap();
 //        System.out.println("bg =="+bg.solution(15));
 
-        CyclicRotation cr = new CyclicRotation();
+//        CyclicRotation cr = new CyclicRotation();
+//        int[] a  = {3, 8, 9, 7, 6};
+//        System.out.println("cr =="+cr.solution(a, 3));
 
-        int[] a  = {3, 8, 9, 7, 6};
-        System.out.println("cr =="+cr.solution(a, 3));
-
+        OddOccurrencesInArray ooia = new OddOccurrencesInArray();
+        ooia.solution(new int[]{9, 3, 9, 3, 9, 7, 9});
     }
 }
