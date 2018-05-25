@@ -16,15 +16,13 @@ public class Main {
         //        FromJmp fj = new FromJmp();
         //        System.out.println(fj.solution(10, 85, 30));
         //        System.out.println(fj.solution(1, 5, 2));
-        PermMissingElem pme = new PermMissingElem();
+        //        PermMissingElem pme = new PermMissingElem();
+        //        System.out.println(pme.solution(new int[]{2, 3, 1, 5}));
+        TapeEquilibrium te = new TapeEquilibrium();
 
-        int[] arr = new int[99999];
-        for(int i = 2 ; i <= 100000 ; i++){
-            arr[i-2] = i;
-
-        }
-//        System.out.println(pme.solution(arr));
-        System.out.println(pme.solution(new int[]{2, 3, 1, 5}));
+        //        System.out.println(te.solution(new int[]{3, 1, 2, 4, 3}))   ;
+        //        System.out.println(te.solution(new int[]{-1000, 1000}));
+        System.out.println(te.solution(new int[]{5, 6, 2, 4, 1}));
 
 
     }
