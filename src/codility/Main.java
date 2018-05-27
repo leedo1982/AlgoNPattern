@@ -24,11 +24,14 @@ public class Main {
         //        System.out.println(te.solution(new int[]{-1000, 1000}));
         //        System.out.println(te.solution(new int[]{5, 6, 2, 4, 1}));
 
+        //        FrogRiverOne fro = new FrogRiverOne();
+        //        System.out.println(fro.solution(5, new int[]{1, 3, 1, 4, 2, 3, 5, 4}));
+        //        System.out.println(fro.solution(100000, new int[]{1, 3, 1, 4, 2, 3, 5, 4}));
 
-        FrogRiverOne fro = new FrogRiverOne();
-
-        System.out.println(fro.solution(5, new int[]{1, 3, 1, 4, 2, 3, 5, 4}));
-//        System.out.println(fro.solution(100000, new int[]{1, 3, 1, 4, 2, 3, 5, 4}));
-
+        MissingInteger mi = new MissingInteger();
+        System.out.println(mi.solution(new int[]{1, 3, 6, 4, 1, 2}));
+        System.out.println(mi.solution(new int[]{1, 2, 3}));
+        System.out.println(mi.solution(new int[]{-1, -3}));
+        System.out.println(mi.solution(new int[]{2}));
     }
 }
