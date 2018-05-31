@@ -3,6 +3,13 @@ package codility;
 public class Main {
 
     public static void main(String[] args) {
+
+        PermCheck pc = new PermCheck();
+        System.out.println(pc.solution(new int[]{4,3,1,2}));
+        System.out.println(pc.solution(new int[]{4,1,2}));
+        System.out.println(pc.solution(new int[]{4,1,1}));
+        System.out.println(pc.solution(new int[]{1000000000}));
+
         //        BinaryGap bg = new BinaryGap();
         //        System.out.println("bg =="+bg.solution(15));
 
@@ -28,10 +35,11 @@ public class Main {
         //        System.out.println(fro.solution(5, new int[]{1, 3, 1, 4, 2, 3, 5, 4}));
         //        System.out.println(fro.solution(100000, new int[]{1, 3, 1, 4, 2, 3, 5, 4}));
 
-        MissingInteger mi = new MissingInteger();
-        System.out.println(mi.solution(new int[]{1, 3, 6, 4, 1, 2}));
-        System.out.println(mi.solution(new int[]{1, 2, 3}));
-        System.out.println(mi.solution(new int[]{-1, -3}));
-        System.out.println(mi.solution(new int[]{2}));
+        //        MissingInteger mi = new MissingInteger();
+        //        System.out.println(mi.solution(new int[]{1, 3, 6, 4, 1, 2}));
+        //        System.out.println(mi.solution(new int[]{1, 2, 3}));
+        //        System.out.println(mi.solution(new int[]{-1, -3}));
+        //        System.out.println(mi.solution(new int[]{2}));
+
     }
 }
