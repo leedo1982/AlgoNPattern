@@ -4,11 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        PermCheck pc = new PermCheck();
-        System.out.println(pc.solution(new int[]{4,3,1,2}));
-        System.out.println(pc.solution(new int[]{4,1,2}));
-        System.out.println(pc.solution(new int[]{4,1,1}));
-        System.out.println(pc.solution(new int[]{1000000000}));
+        MaxCounter mc = new MaxCounter();
+        System.out.println(mc.solution(5,new int[]{3,4,4,6,1,4,4}));
+
+        //        PermCheck pc = new PermCheck();
+        //        System.out.println(pc.solution(new int[]{4,3,1,2}));
+        //        System.out.println(pc.solution(new int[]{4,1,2}));
+        //        System.out.println(pc.solution(new int[]{4,1,1}));
+        //        System.out.println(pc.solution(new int[]{1000000000}));
 
         //        BinaryGap bg = new BinaryGap();
         //        System.out.println("bg =="+bg.solution(15));
