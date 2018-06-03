@@ -4,8 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        MaxCounter mc = new MaxCounter();
-        System.out.println(mc.solution(5,new int[]{3,4,4,6,1,4,4}));
+//        System.out.println(mc.solution(5,new int[]{3,4,4,6,1,4,4}));
+
+        //        MaxCounter mc = new MaxCounter();
+        //        System.out.println(mc.solution(5,new int[]{3,4,4,6,1,4,4}));
 
         //        PermCheck pc = new PermCheck();
         //        System.out.println(pc.solution(new int[]{4,3,1,2}));
