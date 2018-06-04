@@ -1,3 +1,4 @@
 *.imi
 *.xml
 out/*
+.idea/*
