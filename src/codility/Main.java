@@ -3,8 +3,12 @@ package codility;
 public class Main {
 
     public static void main(String[] args) {
-        PassingCars pcs = new PassingCars();
-        System.out.println(pcs.solution(new int[]{0,1,0,1,1}));
+        GenomicRangeQuery grq = new GenomicRangeQuery();
+//        System.out.println(grq.solution("CAGCCTA", new int[]{2,5,0}, new int[]{4,5,6}));
+        System.out.println(grq.solution("AC", new int[]{0,0,1}, new int[]{0,1,1}));
+
+        //        PassingCars pcs = new PassingCars();
+        //        System.out.println(pcs.solution(new int[]{0,1,0,1,1}));
 
 
 
