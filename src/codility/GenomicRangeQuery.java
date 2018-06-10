@@ -29,6 +29,30 @@ public class GenomicRangeQuery {
         //            result[i] = factor;
         //        }
 
+        int[] temp = new int[S.length()];
+        int sum = 0;
+
+        for (int i = 0, len = S.length(); i < len; i++) {
+            char ch = S.charAt(i);
+            if (ch == 'A') {
+                temp[i] = sum + 1;
+                sum += 1;
+            } else if (ch == 'C') {
+                temp[i] = sum + 2;
+                sum += 2;
+            } else if (ch == 'G') {
+                temp[i] = sum + 3;
+                sum += 3;
+            } else if (ch == 'T') {
+                temp[i] = sum + 4;
+                sum += 4;
+            }
+        }
+        for (int i = 0, len = P.length; i < len; i++) {
+            int i1 = temp[Q[i]] - temp[P[i]];
+
+        }
+
         return null;
     }
 }
