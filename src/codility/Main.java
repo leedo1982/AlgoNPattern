@@ -3,15 +3,20 @@ package codility;
 public class Main {
 
     public static void main(String[] args) {
-        PassingCars pcs = new PassingCars();
-        System.out.println(pcs.solution(6, 11, 2));
+        GenomicRangeQuery grq = new GenomicRangeQuery();
+//        System.out.println(grq.solution("CAGCCTA", new int[]{2,5,0}, new int[]{4,5,6}));
+        System.out.println(grq.solution("AC", new int[]{0,0,1}, new int[]{0,1,1}));
+
+        //        PassingCars pcs = new PassingCars();
+        //        System.out.println(pcs.solution(new int[]{0,1,0,1,1}));
 
 
-//        CountDiv cd = new CountDiv();
-//        System.out.println(cd.solution(6, 11, 2));
-//        System.out.println(cd.solution(11, 345, 17));
-//        System.out.println(cd.solution(0, 2000000000, 1));
-//        System.out.println(cd.solution(5, 7, 20));
+
+        //        CountDiv cd = new CountDiv();
+        //
+        //        System.out.println(cd.solution(6, 11, 2));
+        //        System.out.println(cd.solution(11, 345, 17));
+        //        System.out.println(cd.solution(5, 7, 20));
 
         //        MaxCounter mc = new MaxCounter();
         //        System.out.println(mc.solution(5,new int[]{3,4,4,6,1,4,4}));
