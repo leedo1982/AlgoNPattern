@@ -3,10 +3,14 @@ package codility;
 public class Main {
 
     public static void main(String[] args) {
-        CountDiv cd = new CountDiv();
+        PassingCars pcs = new PassingCars();
+        System.out.println(pcs.solution(6, 11, 2));
 
-        System.out.println(cd.solution(6, 11, 2));
-        System.out.println(cd.solution(11, 345, 17));
+
+//        CountDiv cd = new CountDiv();
+//        System.out.println(cd.solution(6, 11, 2));
+//        System.out.println(cd.solution(11, 345, 17));
+//        System.out.println(cd.solution(0, 2000000000, 1));
 //        System.out.println(cd.solution(5, 7, 20));
 
         //        MaxCounter mc = new MaxCounter();
