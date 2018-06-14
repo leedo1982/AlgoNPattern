@@ -3,14 +3,17 @@ package codility;
 public class Main {
 
     public static void main(String[] args) {
-        GenomicRangeQuery grq = new GenomicRangeQuery();
-//        System.out.println(grq.solution("CAGCCTA", new int[]{2,5,0}, new int[]{4,5,6}));
-        System.out.println(grq.solution("AC", new int[]{0,0,1}, new int[]{0,1,1}));
+
+        MinSliceAvg msa = new MinSliceAvg();
+//        System.out.println(msa.solution(new int[]{4, 2, 2, 5, 1, 5, 8}));
+        System.out.println(msa.solution(new int[]{-3, -5, -8, -4, -10}));
+
+        //        GenomicRangeQuery grq = new GenomicRangeQuery();
+        //        System.out.println(grq.solution("CAGCCTA", new int[]{2,5,0}, new int[]{4,5,6}));
+        //        System.out.println(grq.solution("AC", new int[]{0,0,1}, new int[]{0,1,1}));
 
         //        PassingCars pcs = new PassingCars();
         //        System.out.println(pcs.solution(new int[]{0,1,0,1,1}));
-
-
 
         //        CountDiv cd = new CountDiv();
         //
