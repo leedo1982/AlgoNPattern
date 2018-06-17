@@ -3,10 +3,15 @@ package codility;
 public class Main {
 
     public static void main(String[] args) {
+        MaxProductOfThree mpot = new MaxProductOfThree();
+//        System.out.println(mpot.solution(new int[]{-3,1,2,-2,5,6}));
+//        System.out.println(mpot.solution(new int[]{-2, -3, -5, -6, 0}));
+        System.out.println(mpot.solution(new int[]{-5, -6, -4, -7, -10}));
 
-        MinSliceAvg msa = new MinSliceAvg();
-//        System.out.println(msa.solution(new int[]{4, 2, 2, 5, 1, 5, 8}));
-        System.out.println(msa.solution(new int[]{-3, -5, -8, -4, -10}));
+
+        //        MinSliceAvg msa = new MinSliceAvg();
+        //        System.out.println(msa.solution(new int[]{4, 2, 2, 5, 1, 5, 8}));
+        //        System.out.println(msa.solution(new int[]{-3, -5, -8, -4, -10}));
 
         //        GenomicRangeQuery grq = new GenomicRangeQuery();
         //        System.out.println(grq.solution("CAGCCTA", new int[]{2,5,0}, new int[]{4,5,6}));
