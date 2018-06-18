@@ -3,10 +3,12 @@ package codility;
 public class Main {
 
     public static void main(String[] args) {
-        MaxProductOfThree mpot = new MaxProductOfThree();
+        Distinct d =new Distinct();
+        System.out.println(d.solution(new int[]{-3,1,2,-2,5,6}));
+//        MaxProductOfThree mpot = new MaxProductOfThree();
 //        System.out.println(mpot.solution(new int[]{-3,1,2,-2,5,6}));
 //        System.out.println(mpot.solution(new int[]{-2, -3, -5, -6, 0}));
-        System.out.println(mpot.solution(new int[]{-5, -6, -4, -7, -10}));
+//        System.out.println(mpot.solution(new int[]{-5, -6, -4, -7, -10}));
 
 
         //        MinSliceAvg msa = new MinSliceAvg();
