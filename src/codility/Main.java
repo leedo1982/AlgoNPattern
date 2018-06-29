@@ -3,8 +3,8 @@ package codility;
 public class Main {
 
     public static void main(String[] args) {
-        Triangle t = new Triangle();
-
+        NumberOfDiscIntersections ndi = new NumberOfDiscIntersections();
+        System.out.println(ndi.solution(new int[]{1, 5, 2, 1, 4, 0}));
 
 
         //        Distinct d =new Distinct();
