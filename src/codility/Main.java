@@ -4,9 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         NumberOfDiscIntersections ndi = new NumberOfDiscIntersections();
-//        System.out.println(ndi.solution(new int[]{1, 5, 2, 1, 4, 0}));
-        System.out.println(ndi.solution(new int[]{1, 2147483647, 0}));
+        System.out.println(ndi.solution(new int[]{1, 5, 2, 1, 4, 0}));
+//        System.out.println(ndi.solution(new int[]{1, 2147483647, 0}));
 
+        System.out.println(ndi.solution2(new int[]{1, 5, 2, 1, 4, 0}));
 
         //        Distinct d =new Distinct();
         //        System.out.println(d.solution(new int[]{-3,1,2,-2,5,6}));
