@@ -4,9 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Nesting n = new Nesting();
+        Brackets b  = new Brackets();
+        System.out.println(b.solution(""));
+        System.out.println(b.solution("{[()()]}"));
+        System.out.println(b.solution("([)()]"));
 
-        System.out.println(n.solution(""));
+//        Nesting n = new Nesting();
+//
+//        System.out.println(n.solution(""));
 //        System.out.println(n.solution("(()(())())"));
 //        System.out.println(n.solution("(()"));
 
