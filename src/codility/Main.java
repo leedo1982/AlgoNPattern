@@ -4,18 +4,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Nesting n = new Nesting();
+        Fish f = new Fish();
 
-        System.out.println(n.solution(""));
-//        System.out.println(n.solution("(()(())())"));
-//        System.out.println(n.solution("(()"));
+//        System.out.println(f.solution(new int[]{4, 3, 2, 1, 5}, new int[]{0, 1, 0, 0, 0}));
+        System.out.println(f.solution(new int[]{4, 3, 2, 1, 5}, new int[]{1, 0, 1, 0, 1}));
 
+        //        Nesting n = new Nesting();
+        //        System.out.println(n.solution(""));
+        //        System.out.println(n.solution("(()(())())"));
+        //        System.out.println(n.solution("(()"));
 
-
-//        NumberOfDiscIntersections ndi = new NumberOfDiscIntersections();
-//        System.out.println(ndi.solution(new int[]{1, 5, 2, 1, 4, 0}));
-//        System.out.println(ndi.solution(new int[]{1, 2147483647, 0}));
-//        System.out.println(ndi.solution2(new int[]{1, 5, 2, 1, 4, 0}));
+        //        NumberOfDiscIntersections ndi = new NumberOfDiscIntersections();
+        //        System.out.println(ndi.solution(new int[]{1, 5, 2, 1, 4, 0}));
+        //        System.out.println(ndi.solution(new int[]{1, 2147483647, 0}));
+        //        System.out.println(ndi.solution2(new int[]{1, 5, 2, 1, 4, 0}));
 
         //        Distinct d =new Distinct();
         //        System.out.println(d.solution(new int[]{-3,1,2,-2,5,6}));
@@ -23,7 +25,6 @@ public class Main {
         //        System.out.println(mpot.solution(new int[]{-3,1,2,-2,5,6}));
         //        System.out.println(mpot.solution(new int[]{-2, -3, -5, -6, 0}));
         //        System.out.println(mpot.solution(new int[]{-5, -6, -4, -7, -10}));
-
 
         //        MinSliceAvg msa = new MinSliceAvg();
         //        System.out.println(msa.solution(new int[]{4, 2, 2, 5, 1, 5, 8}));
