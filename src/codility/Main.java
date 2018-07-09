@@ -8,6 +8,16 @@ public class Main {
 
 //        System.out.println(f.solution(new int[]{4, 3, 2, 1, 5}, new int[]{0, 1, 0, 0, 0}));
         System.out.println(f.solution(new int[]{4, 3, 2, 1, 5}, new int[]{1, 0, 1, 0, 1}));
+//        Brackets b  = new Brackets();
+//        System.out.println(b.solution(""));
+//        System.out.println(b.solution("{[()()]}"));
+//        System.out.println(b.solution("([)()]"));
+
+//        Nesting n = new Nesting();
+//
+//        System.out.println(n.solution(""));
+//        System.out.println(n.solution("(()(())())"));
+//        System.out.println(n.solution("(()"));
 
         //        Nesting n = new Nesting();
         //        System.out.println(n.solution(""));
