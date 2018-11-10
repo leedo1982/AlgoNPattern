@@ -7,9 +7,9 @@ public class Main {
         StoneWall sw = new StoneWall();
 
 
-        Fish f = new Fish();
+//        Fish f = new Fish();
 //        System.out.println(f.solution(new int[]{4, 3, 2, 1, 5}, new int[]{0, 1, 0, 0, 0}));
-        System.out.println(f.solution(new int[]{4, 3, 2, 1, 5}, new int[]{1, 0, 1, 0, 1}));
+//        System.out.println(f.solution(new int[]{4, 3, 2, 1, 5}, new int[]{1, 0, 1, 0, 1}));
 //        Brackets b  = new Brackets();
 //        System.out.println(b.solution(""));
 //        System.out.println(b.solution("{[()()]}"));
@@ -64,8 +64,8 @@ public class Main {
         //        System.out.println(pc.solution(new int[]{4,1,1}));
         //        System.out.println(pc.solution(new int[]{1000000000}));
 
-        //        BinaryGap bg = new BinaryGap();
-        //        System.out.println("bg =="+bg.solution(15));
+                BinaryGap bg = new BinaryGap();
+                System.out.println("bg =="+bg.solution(15));
 
         //        CyclicRotation cr = new CyclicRotation();
         //        int[] a  = {3, 8, 9, 7, 6};
